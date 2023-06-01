@@ -22,6 +22,7 @@ class AddTodoPage extends HookWidget {
         padding: const EdgeInsets.all(16),
         child: Column(children: [
         TextField(
+          autofocus: true,
           decoration: const InputDecoration(
             hintText: AppLocalisation.addTodoPageTextFieldHint
           ),

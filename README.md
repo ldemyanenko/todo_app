@@ -7,7 +7,7 @@ A test assignment for Flutter Tech Lead/Senior Flutter developer position applic
 [Initial requirements](requirements/Flutter%20Case%20Study.pdf)
 
 Additional Requirements:
-It's a personal todo application. There should be local storage for data.
+It's a personal todo application. There should be a local storage for data.
 
 
 ## Implementation
@@ -15,7 +15,7 @@ It's a personal todo application. There should be local storage for data.
 Hive is used as a local storage solution.
 
 ## Results
-<img src='screenshots/todo_list.PNG' width='150'> <img src='screenshots/view_contact.PNG' width='150'> <img src='screenshots/add_todo.PNG' width='150'>
+<img src='screenshots/todo_list.PNG' width='150'> <img src='screenshots/add_todo.PNG' width='150'>
 
 
 ## Running the project
