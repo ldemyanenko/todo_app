@@ -13,6 +13,7 @@ class TodoApp extends StatelessWidget {
     return ChangeNotifierProvider<TodoState>(
       create: (BuildContext context) => TodoState(),
       child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
         title: 'Todo app',
         theme: ThemeData(
             primarySwatch: Colors.blue, backgroundColor: Colors.grey.withAlpha(100), textTheme: const TextTheme(subtitle1: TextStyle(fontSize: 14))),
