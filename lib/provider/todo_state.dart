@@ -34,8 +34,8 @@ class TodoState extends ChangeNotifier {
       var apiResults = await _apiService.fetchTodoListItems();
       if (apiResults != null) {
         var filteredTodos = apiResults.where((element) => element.userId == _authService.userId);
-        todoItems = filteredTodos.toList();
-        _dbService.updateTodos(Map.fromEntries(filteredTodos.toList().reversed.map((e) => MapEntry(e.id, e)))); // using reverse to reverse order in the list so we could add new item in the end and see it on top
+        todoItems = filteredTodos.toList().reversed.toList();
+        _dbService.updateTodos(Map.fromEntries(filteredTodos.toList().map((e) => MapEntry(e.id, e)))); // using reverse to reverse order in the list so we could add new item in the end and see it on top
       }
     }
     isTodoLoading = false;
