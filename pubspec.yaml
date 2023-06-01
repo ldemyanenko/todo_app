@@ -1,0 +1,41 @@
+name: todo_app
+description: Flutter developer position test assignment
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5 # state management library
+  get_it: ^7.6.0 #dependency injection library
+  dio: ^5.1.2 # library that simplifies making http calls
+  go_router: ^7.0.0 # library for navigation
+  flutter_hooks: ^0.18.6 # flutter library to avoid Statefull widgets and increase code reusage level
+  hive: ^2.2.3 # DB for local storage
+  path_provider: ^2.0.15 #lib that helps to get directory for storing hive db
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0 # lint lib
+  hive_generator: ^2.0.0 # used for generating the model adapter for use in hive. To change the adapter use 'flutter packages pub run build_runner build'
+  build_runner: any # library is used for generating Hive adapter from the model
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+

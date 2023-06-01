@@ -1,0 +1,105 @@
+[  +36 ms] executing: sysctl hw.optional.arm64
+[   +7 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[   +2 ms] executing: [/Users/leoniddemanenko/Development/flutter_new/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[  +24 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] e3c29ec00c9c825c891d75054c63fcc46454dca1
+[        ] executing: [/Users/leoniddemanenko/Development/flutter_new/] git tag --points-at e3c29ec00c9c825c891d75054c63fcc46454dca1
+[  +81 ms] Exit code 0 from: git tag --points-at e3c29ec00c9c825c891d75054c63fcc46454dca1
+[        ] 3.3.2
+[  +20 ms] executing: [/Users/leoniddemanenko/Development/flutter_new/] git rev-parse --abbrev-ref --symbolic @{upstream}
+[   +8 ms] Exit code 128 from: git rev-parse --abbrev-ref --symbolic @{upstream}
+[        ] fatal: HEAD does not point to a branch
+[  +10 ms] executing: [/Users/leoniddemanenko/Development/flutter_new/] git rev-parse --abbrev-ref HEAD
+[  +15 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] HEAD
+[  +19 ms] Found 2 files which will be executed as Widget Tests.
+[   +3 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +17 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +18 ms] Skipping pub get: version match.
+[  +54 ms] Generating /Users/leoniddemanenko/StudioProjects/todo_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[  +54 ms] running test package with arguments: [--no-color, -r, compact, --timeout, 30s, --concurrency=8, --chain-stack-traces, --, /Users/leoniddemanenko/StudioProjects/todo_app/test/unit_test.dart, /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart]
+00:00 +0: loading /Users/leoniddemanenko/StudioProjects/todo_app/test/unit_test.dart                                                                                                                   [  +80 ms] test 0: starting test /Users/leoniddemanenko/StudioProjects/todo_app/test/unit_test.dart
+[   +2 ms] Stopping scan for flutter_test_config.dart; found project root at /Users/leoniddemanenko/StudioProjects/todo_app
+[   +1 ms] Compiler will use the following file as its incremental dill file: /var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_compiler.3cayTQ/output.dill
+[        ] Listening to compiler controller...
+[   +3 ms] Compiling file:///var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.BEo6Ka/listener.dart
+[  +13 ms] /Users/leoniddemanenko/Development/flutter_new/bin/cache/dart-sdk/bin/dart --disable-dart-dev /Users/leoniddemanenko/Development/flutter_new/bin/cache/dart-sdk/bin/snapshots/frontend_server.dart.snapshot --sdk-root /Users/leoniddemanenko/Development/flutter_new/bin/cache/artifacts/engine/common/flutter_patched_sdk/ --incremental --no-print-incremental-dependencies --target=flutter --debugger-module-names --experimental-emit-debug-metadata -DFLUTTER_WEB_AUTO_DETECT=true --output-dill /var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_compiler.3cayTQ/output.dill --packages /Users/leoniddemanenko/StudioProjects/todo_app/.dart_tool/package_config.json -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --initialize-from-dill /Users/leoniddemanenko/StudioProjects/todo_app/build/test_cache/build/c075001b96339384a97db4862b8ab8db.cache.dill.track.dill --verbosity=error
+[        ] test 1: starting test /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart
+[        ] Stopping scan for flutter_test_config.dart; found project root at /Users/leoniddemanenko/StudioProjects/todo_app
+[   +6 ms] <- compile file:///var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.BEo6Ka/listener.dart
+[ +728 ms] <- accept
+[        ] <- reset
+[        ] Compiling file:///var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.BEo6Ka/listener.dart took 749ms
+[        ] Compiling file:///var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.GPJpFm/listener.dart
+[        ] test 0: starting test device
+[   +1 ms] test 0: awaiting connection to test device
+[   +7 ms] test 0: Observatory uri is not available
+[   +3 ms] test 0: test harness socket server is running at port:57665
+[   +4 ms] executing: sysctl hw.optional.arm64
+[   +2 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] Using this directory for fonts configuration: /var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_fonts.9ROlU3
+[        ] test 0: Starting flutter_tester process with command=[/usr/bin/arch, -x86_64, /Users/leoniddemanenko/Development/flutter_new/bin/cache/artifacts/engine/darwin-x64/flutter_tester, --disable-observatory, --enable-checked-mode, --verify-entry-points, --enable-software-rendering, --skia-deterministic-rendering, --enable-dart-profiling, --non-interactive, --use-test-fonts, --disable-asset-fonts, --packages=/Users/leoniddemanenko/StudioProjects/todo_app/.dart_tool/package_config.json, --flutter-assets-dir=/Users/leoniddemanenko/StudioProjects/todo_app/build/unit_test_assets, /var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.BEo6Ka/listener.dart.dill], environment={FLUTTER_TEST: true, FONTCONFIG_FILE: /var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_fonts.9ROlU3/fonts.conf, SERVER_PORT: 57665, APP_NAME: todo_app, UNIT_TEST_ASSETS: /Users/leoniddemanenko/StudioProjects/todo_app/build/unit_test_assets}
+[   +1 ms] <- recompile file:///var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.GPJpFm/listener.dart cd41ef86-9ea0-4700-a093-ffea991cbd5d
+[        ] file:///var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.GPJpFm/listener.dart
+[        ] file:///Users/leoniddemanenko/StudioProjects/todo_app/.dart_tool/flutter_build/dart_plugin_registrant.dart
+[        ] <- cd41ef86-9ea0-4700-a093-ffea991cbd5d
+[   +2 ms] test 0: Started flutter_tester process at pid 62280
+[  +63 ms] <- accept
+[        ] <- reset
+[        ] Compiling file:///var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.GPJpFm/listener.dart took 88ms
+[        ] test 1: starting test device
+[        ] test 1: awaiting connection to test device
+[        ] test 1: Observatory uri is not available
+[        ] test 1: test harness socket server is running at port:57666
+[   +3 ms] executing: sysctl hw.optional.arm64
+[   +2 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] test 1: Starting flutter_tester process with command=[/usr/bin/arch, -x86_64, /Users/leoniddemanenko/Development/flutter_new/bin/cache/artifacts/engine/darwin-x64/flutter_tester, --disable-observatory, --enable-checked-mode, --verify-entry-points, --enable-software-rendering, --skia-deterministic-rendering, --enable-dart-profiling, --non-interactive, --use-test-fonts, --disable-asset-fonts, --packages=/Users/leoniddemanenko/StudioProjects/todo_app/.dart_tool/package_config.json, --flutter-assets-dir=/Users/leoniddemanenko/StudioProjects/todo_app/build/unit_test_assets, /var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_listener.GPJpFm/listener.dart.dill], environment={FLUTTER_TEST: true, FONTCONFIG_FILE: /var/folders/gs/8v1mxg1d5lj7b99ld1q40cc80000gn/T/flutter_tools.ltfwjG/flutter_test_fonts.9ROlU3/fonts.conf, SERVER_PORT: 57666, APP_NAME: todo_app, UNIT_TEST_ASSETS: /Users/leoniddemanenko/StudioProjects/todo_app/build/unit_test_assets}
+[   +1 ms] test 1: Started flutter_tester process at pid 62283
+00:01 +0: loading /Users/leoniddemanenko/StudioProjects/todo_app/test/unit_test.dart                                                                                                                   [ +551 ms] test 0: connected to test device, now awaiting test result
+[        ] test 0: Waiting for test harness or tests to finish
+[   +3 ms] test 1: connected to test device, now awaiting test result
+[        ] test 1: Waiting for test harness or tests to finish
+00:01 +0: /Users/leoniddemanenko/StudioProjects/todo_app/test/unit_test.dart: TodoState checks Check todo fetch on state creation                                                                      00:02 +0: /Users/leoniddemanenko/StudioProjects/todo_app/test/unit_test.dart: TodoState checks Check todo fetch on state creation                                                                      00:02 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   [+1298 ms] test 0: Test harness is no longer needed by test process
+[        ] test 0: finished
+[        ] test 0: cleaning up...
+[        ] test 0: ensuring test device is terminated.
+[        ] test 0: Terminating flutter_tester process
+[        ] test 0: Shutting down test harness socket server
+[        ] test 0: Test process is no longer needed by test harness
+[   +7 ms] test 0: flutter_tester process at pid 62280 exited with code=-9
+[        ] test 0: deleting temporary directory
+[        ] test 0: finished
+00:03 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:04 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:05 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:06 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:07 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:08 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:09 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:10 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:11 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:12 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:13 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:14 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:15 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:16 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:17 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:18 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:19 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:20 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:21 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:22 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:23 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:24 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:25 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:26 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:27 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:28 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:29 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:30 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:31 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:32 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:33 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:34 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:35 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:36 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:37 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:38 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:39 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:40 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:41 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   00:42 +1: /Users/leoniddemanenko/StudioProjects/todo_app/test/widget_test.dart: Check Todo List page                                                                                                   
